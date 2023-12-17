@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane blendMode="DIFFERENCE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projecttask.HelloController">
+   <children>
+      <Button fx:id="buttonStart" layoutX="307.0" layoutY="200.0" mnemonicParsing="false" text="Войти" />
+      <TextField fx:id="textFieldAuthLogin" layoutX="68.0" layoutY="79.0" prefHeight="25.0" prefWidth="288.0" promptText="Логин">
+         <effect>
+            <DropShadow />
+         </effect>
+      </TextField>
+      <Button fx:id="buttonRegistration" layoutX="489.0" layoutY="22.0" mnemonicParsing="false" text="Регистрация" />
+      <PasswordField fx:id="textFieldAuthPassword" layoutX="68.0" layoutY="129.0" prefHeight="25.0" prefWidth="288.0" promptText="Пароль">
+         <effect>
+            <DropShadow />
+         </effect>
+      </PasswordField>
+      <Text fx:id="textStartWindow" layoutX="168.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Заполните поля" visible="false">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+   </children>
+</AnchorPane>

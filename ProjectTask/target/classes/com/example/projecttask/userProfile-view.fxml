@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane blendMode="DIFFERENCE" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projecttask.UserProfileController">
+   <children>
+      <Button fx:id="buttonToHomeWindow" layoutX="506.0" layoutY="14.0" mnemonicParsing="false" text="На главную" />
+      <Text fx:id="textUserStatistics" layoutX="20.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Статистика">
+         <effect>
+            <DropShadow />
+         </effect></Text>
+      <Text fx:id="userNameProfile" layoutX="14.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text">
+         <font>
+            <Font size="20.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="buttonUnLogin" layoutX="393.0" layoutY="14.0" mnemonicParsing="false" text="Разлогиниться" />
+   </children>
+</AnchorPane>
